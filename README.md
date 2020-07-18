@@ -7,7 +7,18 @@ Feel free to contribute your local maps.
 2. The map validates against the [latest map xsd schema](https://www.gpxsee.org/map/1.4/map.xsd).
 3. Using the map data in GPXSee is not prohibited by the map license.
 
+
 ## Map templates
 Some maps require API keys or user credentials. Such map definition files have a *tpl* extension
 instead of the usual *xml* extension. You must fill in the required info and rename the files
 before you can use them in GPXSee.
+
+## Download and usage in GPXSee
+Select de file map you need, and download it in one of your local directory.
+
+In GPXSee Menu > Map > Load Map
+
+To download the whole map directory:
+
+    git clone https://github.com/tumic0/GPXSee-maps
+
